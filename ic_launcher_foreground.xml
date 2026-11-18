@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 
+      Perhitungan Centering Presisi:
+      Scale 0.8 membuat gambar pas.
+      Translate Y diset ke 18 (sedikit lebih bawah dari titik tengah matematis)
+      agar visual anak panah di atas terlihat seimbang dengan bagian bawah.
+    -->
+    <group
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translateX="14"
+        android:translateY="18">
+
+        <!-- Garis Infinity Utama -->
+        <path
+            android:pathData="M 80 50 C 80 20, 50 20, 50 50 C 50 80, 20 80, 20 50 C 20 30, 30 25, 44 25"
+            android:strokeWidth="8"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round">
+            <aapt:attr name="android:strokeColor">
+                <gradient
+                    android:startX="20"
+                    android:startY="20"
+                    android:endX="80"
+                    android:endY="80"
+                    android:type="linear">
+                    <item android:offset="0" android:color="#FF00E5FF" />
+                    <item android:offset="1" android:color="#FF0077B6" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Panah Membulat -->
+        <path
+            android:pathData="M 44 14 L 66 25 L 44 36 Z"
+            android:strokeWidth="6"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round">
+            <!-- Gradient Fill -->
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="20"
+                    android:startY="20"
+                    android:endX="80"
+                    android:endY="80"
+                    android:type="linear">
+                    <item android:offset="0" android:color="#FF00E5FF" />
+                    <item android:offset="1" android:color="#FF0077B6" />
+                </gradient>
+            </aapt:attr>
+            <!-- Gradient Stroke -->
+            <aapt:attr name="android:strokeColor">
+                <gradient
+                    android:startX="20"
+                    android:startY="20"
+                    android:endX="80"
+                    android:endY="80"
+                    android:type="linear">
+                    <item android:offset="0" android:color="#FF00E5FF" />
+                    <item android:offset="1" android:color="#FF0077B6" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+    </group>
+</vector>

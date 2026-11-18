@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background pake warna solid atau XML gradient lo -->
+    <background android:drawable="@drawable/ic_launcher_background" />
+    
+    <!-- Foreground pake WebP, tapi dibungkus INSet biar nggak mentok -->
+    <foreground>
+        <inset
+            android:drawable="@drawable/ic_sync"
+            android:inset="15%" /> <!-- Angka 25% ini yang ngecilin gambar -->
+    </foreground>
+</adaptive-icon>
