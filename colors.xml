@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Color (D-011) -->
+    <color name="deep_navy">#19384F</color>
+    
+    <!-- Warna dasar untuk splash screen atau fallback -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Warna untuk background ikon launcher bawaan CodeAssist -->
+    <color name="ic_launcher_background">#19384F</color>
+</resources>
