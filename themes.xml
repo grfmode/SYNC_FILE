@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 
+      Theme dasar untuk Android View system.
+      Menggunakan nama Theme.App karena ini adalah default yang dicari oleh CodeAssist.
+    -->
+    <style name="Theme.App" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/deep_navy</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>
